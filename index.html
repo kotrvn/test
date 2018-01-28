@@ -240,17 +240,17 @@
 						<p class="item-content__text">Маршруты городского транспорта Санкт-Петербурга</p>
 					</div>
 					<div class="item-footer">
-						<label for="search">Введите номер маршрута
-							<div class="item-footer__img">
+						<label for="route">Введите номер маршрута
+							<span class="item-footer__img">
 								<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
 								    <g fill="none" fill-rule="evenodd">
 								        <path d="M32 32H0V0h32z"/>
 								        <path fill="#FF3D32" d="M20.67 18.667h-1.06l-.367-.366a8.626 8.626 0 0 0 2.09-5.634A8.666 8.666 0 0 0 12.667 4 8.666 8.666 0 0 0 4 12.667a8.666 8.666 0 0 0 8.667 8.666c2.153 0 4.117-.789 5.633-2.088l.368.366v1.056l6.664 6.654 1.988-1.988-6.65-6.666zm-8.003 0a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"/>
 								    </g>
 								</svg>
-							</div>
+							</span>
 						</label>
-						<input type="text">
+						<input id="route" type="text">
 					</div>
 			</div>
 			<div class="services-item">
@@ -276,14 +276,14 @@
 						<p class="item-content__text">Подпишитесь на нашу рассылку и получайте только самые важные новости на почту</p>
 					</div>
 					<div class="item-footer">
-						<label for="search">Ваш e-mail
-							<div class="item-footer__img">
+						<label for="send">Ваш e-mail
+							<span class="item-footer__img">
 								<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
 								    <path fill="#FF3D32" fill-rule="nonzero" d="M1.833 0C.821 0 0 .82 0 1.833v5.5c.001.779.494 1.471 1.228 1.728a1.833 1.833 0 0 0 .625.106L12.833 11l-10.98 1.835-.02-.002c-.206.001-.412.037-.607.106A1.833 1.833 0 0 0 0 14.667v5.5a1.833 1.833 0 0 0 2.743 1.59h.002l18.696-9.912.002-.004a.917.917 0 0 0-.002-1.686L2.745.243A1.833 1.833 0 0 0 1.833 0z"/>
 								</svg>
-							</div>
+							</span>
 						</label>
-						<input type="text">
+						<input id="send" type="text">
 					</div>
 				</div>
 			</div>
@@ -431,6 +431,7 @@
 				</div>
 				<h2 class="offer-title">Ваша компания тоже может быть в нашем каталоге</h2>
 				<a href="#" class="offer-btn btn">Добавить</a>
+			</div>
 		</div>
 	</section>
 	<section class="opinion">
@@ -486,8 +487,8 @@
 				<div class="check-img">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="118" viewBox="0 0 95 118">
 					    <defs>
-					        <path id="b" d="M67.969 98.245H7.03C3.148 98.245 0 95.104 0 91.228V7.018C0 3.142 3.148 0 7.031 0h44.532L75 23.392v67.836c0 3.876-3.148 7.017-7.031 7.017z"/>
-					        <filter id="a" width="140%" height="130.5%" x="-20%" y="-15.3%" filterUnits="objectBoundingBox">
+					        <path id="beq" d="M67.969 98.245H7.03C3.148 98.245 0 95.104 0 91.228V7.018C0 3.142 3.148 0 7.031 0h44.532L75 23.392v67.836c0 3.876-3.148 7.017-7.031 7.017z"/>
+					        <filter id="asda" width="140%" height="130.5%" x="-20%" y="-15.3%" filterUnits="objectBoundingBox">
 					            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
 					            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
 					            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
@@ -509,17 +510,17 @@
 				</div>
 				<div class="check-input">
 					<div class="item-footer">
-						<label for="search">Введите номер т/с
-							<div class="item-footer__img">
+						<label for="carNum">Введите номер т/с
+							<span class="item-footer__img">
 								<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
 								    <g fill="none" fill-rule="evenodd">
 								        <path d="M35 35H0V0h35z"/>
 								        <path fill="#FF3D32" d="M23.107 20.417H21.95l-.402-.4a9.434 9.434 0 0 0 2.286-6.163 9.479 9.479 0 0 0-9.479-9.479 9.479 9.479 0 0 0-9.479 9.48 9.479 9.479 0 0 0 9.48 9.478 9.436 9.436 0 0 0 6.16-2.283l.403.4v1.154l7.289 7.279 2.174-2.175-7.274-7.291zm-8.753 0a6.561 6.561 0 0 1-6.562-6.563 6.562 6.562 0 1 1 13.125 0 6.562 6.562 0 0 1-6.563 6.563z"/>
 								    </g>
 								</svg>
-							</div>
+							</span>
 						</label>
-						<input type="text">
+						<input id="carNum" type="text">
 					</div>
 				</div>
 			</div>
@@ -530,17 +531,17 @@
 			<h2 class="arrow-title"><a href="#">Транспортное законодательство</a></h2>
 			<div class="legal-search">
 				<div class="item-footer">
-					<label for="search">Быстрый поиск закона 
-						<div class="item-footer__img">
+					<label for="findLaw">Быстрый поиск закона 
+						<span class="item-footer__img">
 							<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
 							    <g fill="none" fill-rule="evenodd">
 							        <path d="M35 35H0V0h35z"/>
 							        <path fill="#FF3D32" d="M23.107 20.417H21.95l-.402-.4a9.434 9.434 0 0 0 2.286-6.163 9.479 9.479 0 0 0-9.479-9.479 9.479 9.479 0 0 0-9.479 9.48 9.479 9.479 0 0 0 9.48 9.478 9.436 9.436 0 0 0 6.16-2.283l.403.4v1.154l7.289 7.279 2.174-2.175-7.274-7.291zm-8.753 0a6.561 6.561 0 0 1-6.562-6.563 6.562 6.562 0 1 1 13.125 0 6.562 6.562 0 0 1-6.563 6.563z"/>
 							    </g>
 							</svg>
-						</div>
+						</span>
 					</label>
-					<input type="text">
+					<input id="findLaw" type="text">
 				</div>
 			</div>
 			<div class="legal-wrap">

@@ -89,7 +89,7 @@ input {
 }
 
 .logo {
-  
+  height: 64px;
 }
 .menu-btn {
   display: flex;
