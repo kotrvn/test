@@ -840,6 +840,14 @@ input {
   margin-right: 0;
 }
 
+.slider-item:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.03),
+              0 4px 6px 0 rgba(0, 0, 0, 0.08);
+}
+.slider-item:hover .slider-item h2 {
+  color: #ff3d32;
+}
+
 .slider-item img {
   width: 100%;
   height: auto;
